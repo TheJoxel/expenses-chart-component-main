@@ -146,3 +146,46 @@
 .percentage{
   font-weight: 700;
 }
+@media (max-width: 767px){
+  .setion-header, .setion-body{
+    min-width: 200px;
+    padding: 20px 30px;
+  }
+  .circles, .circles1{
+    height: 45px;
+    width: 45px;
+  }
+  .title{
+    font-size: 15px;
+  }
+  .price-title{
+    font-size: 28px;
+  }
+  .title-body{
+    font-size: 28px;
+  }
+  .bars-day{
+    width: 35px;
+  }
+  .bars-card{
+    gap: 10px;
+    grid-template-columns: repeat(7,35px);
+    font-size: 15px;
+  }
+  .price-footer-title, .price-footer-percentage{
+    font-size: 15px;
+  }v
+  .price-footerv{
+    font-size: 34px;
+  }
+  .tooltip{
+    margin-left: -7px;
+    width: 37px;
+    font-size: 13px;
+    padding: 6px;
+  }
+  .container-bars{
+    height: 227px;
+    margin: 20px 0 30px;
+  }
+}
