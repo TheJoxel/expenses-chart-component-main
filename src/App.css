@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Setion header */
+
+.wrapper{
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setion-header{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 20px;
+  min-width: 462px;
+}
+.circles{
+  position: absolute;
+  right: 60px;
+  height: 48px;
+  width: 48px;
+  border: 3px solid hsl(27, 66%, 92%);
+  border-radius: 100px;
+}
+.circles1{
+  height: 48px;
+  width: 48px;
+  border: 3px solid hsl(25, 47%, 15%);
+  background-color: hsl(25, 47%, 15%);
+  border-radius: 100px;
+}
+.title{
+  font-size: 17px;
+  font-weight: 700;
+  color: hsl(27, 66%, 92%);
+}
+.price-title{
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  color: hsl(27, 66%, 92%);
+}
+
+/* Section body */
+
+.setion-body{
+  background-color: hsl(30, 44%, 96%);
+  border-radius: 20px;
+  min-width: 462px;
+  padding: 30px 40px;
+  margin-top: 20px;
+}
+.title-body{
+  font-size: 32px;
+  font-weight: 700;
+  color: hsl(25, 47%, 15%);
+}
+.container-bars{
+  margin: 20px 0 40px;
+  height: 240px;
+  position: relative;
+}
+.bars{
+  position: absolute;
+  bottom: 0;
+}
+.bars-card{
+  display: grid;
+  grid-template-columns: repeat(7,50px);
+  gap: 18px;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+.tooltip{
+  padding: 8px;
+  margin-left: -8px;
+  width: 50px;
+  background-color: hsl(25, 47%, 15%);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(27, 66%, 92%);
+}
+.bars-day{
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.color-one{
+  background-color: hsl(10, 79%, 65%);
+}
+.color-one:hover{
+  background-color: hsl(10, 75%, 73%);
+}
+.color-two{
+  background-color: hsl(186, 34%, 60%);
+}
+.bars-card{
+  width: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(25, 47%, 15%);
+}
+
+/* Section footer */
+
+.separator{
+  background-color: hsl(27, 66%, 92%);
+  border: 1px solid hsl(27, 66%, 92%);
+}
+.price-footer-title{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(25, 47%, 15%);
+}
+.price-footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-footer{
+  margin-top: 5px;
+  font-size: 48px;
+  font-weight: 700;
+  color: hsl(25, 47%, 15%);
+}
+.price-footer-percentage{
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(25, 47%, 15%);
+}
+.percentage{
+  font-weight: 700;
+}
